@@ -2,7 +2,7 @@ name: Nightly Snapshot
 
 on:
   schedule:
-  - cron: "3/15 23,0 * * *"
+  - cron: "3/15 1,2,3 * * *"
 
 jobs:
   build:
